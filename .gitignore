@@ -1,0 +1,46 @@
+# Build output
+/build/
+/dist/
+/out/
+*.zip.sig
+*.swu
+*.swu.sig
+*.img
+
+# Private/recovered material
+/keys/
+/private/
+/secrets/
+*.private.pem
+*_private.pem
+cc2_aes_key*.bin
+aes_key.key
+otakey.pem
+
+# Stock/vendor firmware packages
+/original_firmware/
+/vendor/firmware/
+*.zip
+
+# Local configuration
+.env
+.env.*
+!.env.example
+.proxima/
+
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+.pytest_cache/
+
+# IDE / editor
+.vscode/
+.idea/
+*.swp
+*~
+
+# OS
+.DS_Store
+Thumbs.db
